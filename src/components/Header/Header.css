@@ -1,0 +1,30 @@
+.header {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 50px;
+    position: sticky;
+    top: 0px;
+}
+
+.header a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #000;
+    margin-left: 32px;
+}
+
+.header a:hover {
+    color: #FF9900;
+    transition: 0.5s;
+}
+
+.sh-logo {
+    width: 150px;
+    height: 100px;
+}

@@ -1,0 +1,15 @@
+.sh-shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.sh-shop-list{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 4rem;
+     margin: 80px 50px 0 50px;
+}
+.sh-shop-cart{
+    background-color: bisque;
+    padding-left: 25px;
+   
+}
